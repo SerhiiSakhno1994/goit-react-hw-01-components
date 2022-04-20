@@ -1,0 +1,17 @@
+tr {
+    height: 50px;
+}
+
+td {
+    width: calc(100% / 3);
+    text-align: center;
+}
+
+
+tr:nth-child(2n) {
+    background-color: #fff;
+}
+
+tr:nth-child(2n + 1) {
+    background-color: var(--second-color);
+}
