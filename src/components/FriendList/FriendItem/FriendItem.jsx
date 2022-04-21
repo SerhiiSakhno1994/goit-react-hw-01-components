@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import s from './FriendItem.module.css';
 
-
 function FriendItem({ arr }) {
   return (
     <li className={s.item}>
@@ -10,15 +9,15 @@ function FriendItem({ arr }) {
       <p className={s.name}>{arr.name}</p>
     </li>
   );
-};
+}
 
 FriendItem.propTypes = {
   arr: PropTypes.shape({
     id: PropTypes.number.isRequired,
     isOnline: PropTypes.bool.isRequired,
     avatar: PropTypes.string.isRequired,
-    name: PropTypes.string.isRequired
-  })
+    name: PropTypes.string.isRequired,
+  }),
 };
 
 export default FriendItem;

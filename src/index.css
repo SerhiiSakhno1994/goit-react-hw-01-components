@@ -8,7 +8,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-top: 30px;
-  background-color: #D0FFED;
+  background-color: #d0ffed;
 }
 
 code {
@@ -17,6 +17,6 @@ code {
 }
 
 :root {
-  --second-color: #C0DDED;
-  --accent-color: #C0DEC5;
+  --second-color: #c0dded;
+  --accent-color: #c0dec5;
 }

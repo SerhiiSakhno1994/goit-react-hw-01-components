@@ -1,15 +1,12 @@
-
-
-
 .transactionHistory {
-    width: 600px;
-    margin: 0 auto;
-    margin-bottom: 100px;
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 100px;
 }
 
 th {
-    background-color: var(--accent-color);
-    height: 10px;
-   font-size: 25px;
-   text-align: center;
+  background-color: var(--accent-color);
+  height: 10px;
+  font-size: 25px;
+  text-align: center;
 }
